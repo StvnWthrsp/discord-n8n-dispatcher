@@ -1,0 +1,35 @@
+[
+  {
+    "command": "deploy_preview",
+    "description": "Trigger preview deployment workflow",
+    "webhookPath": "/webhook/discord-deploy-preview",
+    "options": [
+      {
+        "name": "branch",
+        "description": "Git branch to deploy",
+        "type": "string",
+        "required": true
+      }
+    ]
+  },
+  {
+    "command": "run_report",
+    "description": "Generate and deliver a report",
+    "webhookPath": "/webhook/discord-run-report",
+    "timeoutMs": 15000,
+    "options": [
+      {
+        "name": "days",
+        "description": "Number of days to include",
+        "type": "integer",
+        "required": false
+      },
+      {
+        "name": "dry_run",
+        "description": "Skip side effects and only simulate",
+        "type": "boolean",
+        "required": false
+      }
+    ]
+  }
+]
