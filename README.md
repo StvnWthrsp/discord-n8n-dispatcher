@@ -32,3 +32,7 @@ pnpm dev
 - Design docs: [docs/design-docs/](docs/design-docs/)
 - Product specs: [docs/product-specs/](docs/product-specs/)
 - Execution plans: [docs/exec-plans/](docs/exec-plans/)
+
+## harness
+
+This repo utilizes my harness[https://github.com/StvnWthrsp/harness] tool to provide an agentic coding framework based on OpenAI harness engineering[https://openai.com/index/harness-engineering/]. 
